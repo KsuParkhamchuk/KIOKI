@@ -14,6 +14,8 @@ let decrypted = [];
 let openKey = 0;
 
 
+
+
 btnEncrypt.onclick = () =>{
     
     if(checkInputs()){
@@ -120,5 +122,8 @@ checkInputs = () =>{
     y.value = Math.trunc(x1.value);
     return d;
 }
+
+
+
  
  
